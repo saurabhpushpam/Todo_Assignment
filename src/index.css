@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  width: 380px;
+  margin: auto;
+  padding: 11px;
+  /* background-color: rgb(1, 112, 112); */
+  /* background-color: rgb(48, 48, 2); */
+  /* background: linear-gradient(red, blue); */
+  background-color: aquamarine;
+
+  color: white;
+  text-align: center;
+  margin-top: 44px;
+  
+}
+.taskInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container input{
+  width: 70%;
+  padding: 9px;
+  border: none;
+  font-size: 22px;
+  border-radius: 2px;
+}
+.container button{
+  width: 70px;
+  height: 44px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-left: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.taskData{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.taskData p{
+  font-size: 23px;
+  margin-left: 8px;
+  
+   
+}
+.taskData #deleteIcon{
+  position:relative;
+  left: -9%;
+  top: 28px;
+  cursor: pointer;
+  font-size: 21px;
+  color: black;
+  color: white;
+}
