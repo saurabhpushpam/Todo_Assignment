@@ -15,8 +15,6 @@ code {
   width: 380px;
   margin: auto;
   padding: 11px;
-  /* background-color: rgb(1, 112, 112); */
-  /* background-color: rgb(48, 48, 2); */
   /* background: linear-gradient(red, blue); */
   background-color: aquamarine;
 
@@ -54,6 +52,15 @@ code {
   justify-content: space-between;
   margin-left: 14px;
   color: rgb(0, 0, 0);
+
+ 
+}
+
+.task{
+  width: 100%;
+  /* border: 5px solid red; */
+  margin-top: 5px;
+  background-color: antiquewhite;
 }
 
 .taskData p{

@@ -11,6 +11,7 @@
 
 .dltbtn{
   margin-top: 15px;
+  margin-right: 5px;
 }
 
 .top{
@@ -22,13 +23,34 @@
   min-height: 100vh;
 }
 
-.dltall{
-  margin-top: 15px;
-}
+/* .dltall{
+  
+} */
+
+
+
 
 .heading{
   font-size: 50px;
   font-weight: 900;
   text-align: center;
   color: rgb(241, 116, 26);
+}
+
+
+
+.container {
+  padding: 20px;
+}
+
+.inputTask {
+  margin-bottom: 20px;
+}
+
+.inputTask input {
+  width: 95%;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: block;
 }
